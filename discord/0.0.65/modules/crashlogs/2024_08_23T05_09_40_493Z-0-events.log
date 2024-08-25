@@ -1,0 +1,16 @@
+2024-08-23T05:09:40.497Z 0: 
+
+----------------------------------------------
+2024-08-23T05:09:40.503Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.65"}, modulepath: /home/santiago/.config/discord/0.0.65/modules
+2024-08-23T05:09:40.505Z 2: ✅ webContents.created web1 ""
+2024-08-23T05:09:40.508Z 3: ✅ window.created win1 "discord"
+2024-08-23T05:09:40.771Z 4: ✅ webContents.did-finish-load web1
+2024-08-23T05:09:47.852Z 5: ✅ webContents.created web2 ""
+2024-08-23T05:09:47.863Z 6: ✅ window.created win2 "Discord"
+2024-08-23T05:09:49.243Z 7: ✅ webContents.did-finish-load web2
+2024-08-23T05:09:49.341Z 8: window.close win1
+2024-08-23T05:09:49.385Z 9: webContents.destroyed web1
+2024-08-23T05:09:49.387Z 10: window.closed win1
+2024-08-23T05:09:55.198Z 11: window.close win2
+2024-08-23T05:09:56.752Z 12: before-quit
+2024-08-23T05:09:56.769Z 13: window.close win2

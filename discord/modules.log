@@ -1,0 +1,630 @@
+2024-08-23T05:09:40.403Z [Modules] Modules initializing
+2024-08-23T05:09:40.403Z [Modules] Distribution: remote
+2024-08-23T05:09:40.403Z [Modules] Host updates: enabled
+2024-08-23T05:09:40.404Z [Modules] Module updates: enabled
+2024-08-23T05:09:40.404Z [Modules] Module install path: /home/santiago/.config/discord/0.0.65/modules
+2024-08-23T05:09:40.404Z [Modules] Module installed file path: /home/santiago/.config/discord/0.0.65/modules/installed.json
+2024-08-23T05:09:40.404Z [Modules] Module download path: /home/santiago/.config/discord/0.0.65/modules/pending
+2024-08-23T05:09:40.704Z [Modules] Bootstrapping...
+2024-08-23T05:09:40.704Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-08-23T05:09:40.707Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-08-23T05:09:40.708Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-08-23T05:09:40.709Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-08-23T05:09:40.709Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-08-23T05:09:40.710Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-08-23T05:09:40.717Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-08-23T05:09:40.718Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-08-23T05:09:40.718Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-08-23T05:09:40.719Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-08-23T05:09:40.720Z [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+2024-08-23T05:09:40.721Z [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+2024-08-23T05:09:40.721Z [Modules] Finished module installations. [success: 0] [failure: 6]
+2024-08-23T05:09:40.721Z [Modules] Checking for host updates.
+2024-08-23T05:09:40.995Z [Modules] Host is up to date.
+2024-08-23T05:09:40.996Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-08-23T05:09:41.018Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-08-23T05:09:41.018Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-08-23T05:09:41.018Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-08-23T05:09:41.018Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-08-23T05:09:41.018Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-08-23T05:09:41.018Z [Modules] Module update available: discord_zstd@1 [installed: 0]
+2024-08-23T05:09:41.019Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-08-23T05:09:41.019Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip
+2024-08-23T05:09:41.542Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 1%
+2024-08-23T05:09:41.544Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 2%
+2024-08-23T05:09:41.563Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 3%
+2024-08-23T05:09:41.577Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 4%
+2024-08-23T05:09:41.579Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 5%
+2024-08-23T05:09:41.583Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 7%
+2024-08-23T05:09:41.585Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 8%
+2024-08-23T05:09:41.597Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 9%
+2024-08-23T05:09:41.599Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 10%
+2024-08-23T05:09:41.602Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 11%
+2024-08-23T05:09:41.605Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 12%
+2024-08-23T05:09:41.607Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 14%
+2024-08-23T05:09:41.612Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 16%
+2024-08-23T05:09:41.619Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 17%
+2024-08-23T05:09:41.621Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 18%
+2024-08-23T05:09:41.623Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 19%
+2024-08-23T05:09:41.627Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 20%
+2024-08-23T05:09:41.642Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 21%
+2024-08-23T05:09:41.644Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 22%
+2024-08-23T05:09:41.649Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 23%
+2024-08-23T05:09:41.652Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 24%
+2024-08-23T05:09:41.654Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 25%
+2024-08-23T05:09:41.657Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 27%
+2024-08-23T05:09:41.663Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 28%
+2024-08-23T05:09:41.667Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 29%
+2024-08-23T05:09:41.670Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 30%
+2024-08-23T05:09:41.676Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 32%
+2024-08-23T05:09:41.682Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 33%
+2024-08-23T05:09:41.692Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 34%
+2024-08-23T05:09:41.696Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 35%
+2024-08-23T05:09:41.697Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 36%
+2024-08-23T05:09:41.702Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 37%
+2024-08-23T05:09:41.704Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 39%
+2024-08-23T05:09:41.708Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 40%
+2024-08-23T05:09:41.713Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 41%
+2024-08-23T05:09:41.715Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 42%
+2024-08-23T05:09:41.718Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 43%
+2024-08-23T05:09:41.721Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 44%
+2024-08-23T05:09:41.724Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 45%
+2024-08-23T05:09:41.733Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 46%
+2024-08-23T05:09:41.736Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 47%
+2024-08-23T05:09:41.754Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 48%
+2024-08-23T05:09:41.755Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 49%
+2024-08-23T05:09:41.759Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 52%
+2024-08-23T05:09:41.762Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 53%
+2024-08-23T05:09:41.764Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 54%
+2024-08-23T05:09:41.766Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 55%
+2024-08-23T05:09:41.768Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 56%
+2024-08-23T05:09:41.774Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 57%
+2024-08-23T05:09:41.780Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 58%
+2024-08-23T05:09:41.787Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 59%
+2024-08-23T05:09:41.801Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 60%
+2024-08-23T05:09:41.803Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 61%
+2024-08-23T05:09:41.805Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 62%
+2024-08-23T05:09:41.807Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 63%
+2024-08-23T05:09:41.810Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 64%
+2024-08-23T05:09:41.813Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 65%
+2024-08-23T05:09:41.815Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 66%
+2024-08-23T05:09:41.820Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 67%
+2024-08-23T05:09:41.822Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 68%
+2024-08-23T05:09:41.823Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 69%
+2024-08-23T05:09:41.826Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 70%
+2024-08-23T05:09:41.828Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 71%
+2024-08-23T05:09:41.833Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 72%
+2024-08-23T05:09:41.835Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 75%
+2024-08-23T05:09:41.835Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 76%
+2024-08-23T05:09:41.839Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 77%
+2024-08-23T05:09:41.841Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 79%
+2024-08-23T05:09:41.843Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 81%
+2024-08-23T05:09:41.844Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 82%
+2024-08-23T05:09:41.845Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 84%
+2024-08-23T05:09:41.848Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 86%
+2024-08-23T05:09:41.849Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 88%
+2024-08-23T05:09:41.851Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 89%
+2024-08-23T05:09:41.853Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 91%
+2024-08-23T05:09:41.854Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 92%
+2024-08-23T05:09:41.856Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 93%
+2024-08-23T05:09:41.858Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 95%
+2024-08-23T05:09:41.861Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 97%
+2024-08-23T05:09:41.862Z [Modules] Streaming discord_desktop_core@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip: 100%
+2024-08-23T05:09:41.864Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-08-23T05:09:41.864Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip
+2024-08-23T05:09:42.241Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 1%
+2024-08-23T05:09:42.244Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 2%
+2024-08-23T05:09:42.248Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 5%
+2024-08-23T05:09:42.253Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 8%
+2024-08-23T05:09:42.255Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 10%
+2024-08-23T05:09:42.257Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 14%
+2024-08-23T05:09:42.259Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 17%
+2024-08-23T05:09:42.263Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 20%
+2024-08-23T05:09:42.265Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 21%
+2024-08-23T05:09:42.267Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 24%
+2024-08-23T05:09:42.270Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 27%
+2024-08-23T05:09:42.272Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 28%
+2024-08-23T05:09:42.275Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 31%
+2024-08-23T05:09:42.276Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 32%
+2024-08-23T05:09:42.278Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 34%
+2024-08-23T05:09:42.284Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 37%
+2024-08-23T05:09:42.287Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 38%
+2024-08-23T05:09:42.289Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 40%
+2024-08-23T05:09:42.290Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 43%
+2024-08-23T05:09:42.292Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 44%
+2024-08-23T05:09:42.294Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 46%
+2024-08-23T05:09:42.296Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 48%
+2024-08-23T05:09:42.298Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 50%
+2024-08-23T05:09:42.299Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 52%
+2024-08-23T05:09:42.302Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 54%
+2024-08-23T05:09:42.304Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 56%
+2024-08-23T05:09:42.306Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 58%
+2024-08-23T05:09:42.308Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 62%
+2024-08-23T05:09:42.313Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 65%
+2024-08-23T05:09:42.314Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 66%
+2024-08-23T05:09:42.318Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 68%
+2024-08-23T05:09:42.320Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 70%
+2024-08-23T05:09:42.321Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 73%
+2024-08-23T05:09:42.322Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 74%
+2024-08-23T05:09:42.324Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 76%
+2024-08-23T05:09:42.326Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 78%
+2024-08-23T05:09:42.328Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 81%
+2024-08-23T05:09:42.332Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 84%
+2024-08-23T05:09:42.333Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 85%
+2024-08-23T05:09:42.335Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 87%
+2024-08-23T05:09:42.337Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 88%
+2024-08-23T05:09:42.339Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 90%
+2024-08-23T05:09:42.340Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 92%
+2024-08-23T05:09:42.342Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 94%
+2024-08-23T05:09:42.344Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 96%
+2024-08-23T05:09:42.344Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 97%
+2024-08-23T05:09:42.346Z [Modules] Streaming discord_erlpack@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip: 100%
+2024-08-23T05:09:42.347Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-08-23T05:09:42.347Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip
+2024-08-23T05:09:42.868Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 1%
+2024-08-23T05:09:42.879Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 2%
+2024-08-23T05:09:42.883Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 3%
+2024-08-23T05:09:42.887Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 4%
+2024-08-23T05:09:42.892Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 5%
+2024-08-23T05:09:42.895Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 6%
+2024-08-23T05:09:42.901Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 7%
+2024-08-23T05:09:42.904Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 8%
+2024-08-23T05:09:42.907Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 9%
+2024-08-23T05:09:42.912Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 10%
+2024-08-23T05:09:42.917Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 11%
+2024-08-23T05:09:42.919Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 12%
+2024-08-23T05:09:42.924Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 13%
+2024-08-23T05:09:42.928Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 14%
+2024-08-23T05:09:42.935Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 15%
+2024-08-23T05:09:42.943Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 16%
+2024-08-23T05:09:42.945Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 17%
+2024-08-23T05:09:42.949Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 18%
+2024-08-23T05:09:42.954Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 19%
+2024-08-23T05:09:42.957Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 20%
+2024-08-23T05:09:42.964Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 21%
+2024-08-23T05:09:42.968Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 22%
+2024-08-23T05:09:42.972Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 23%
+2024-08-23T05:09:42.979Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 24%
+2024-08-23T05:09:42.982Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 25%
+2024-08-23T05:09:42.992Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 26%
+2024-08-23T05:09:42.997Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 27%
+2024-08-23T05:09:43.000Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 28%
+2024-08-23T05:09:43.003Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 29%
+2024-08-23T05:09:43.009Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 30%
+2024-08-23T05:09:43.012Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 31%
+2024-08-23T05:09:43.017Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 32%
+2024-08-23T05:09:43.020Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 33%
+2024-08-23T05:09:43.026Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 34%
+2024-08-23T05:09:43.034Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 35%
+2024-08-23T05:09:43.037Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 36%
+2024-08-23T05:09:43.042Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 37%
+2024-08-23T05:09:43.045Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 38%
+2024-08-23T05:09:43.050Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 39%
+2024-08-23T05:09:43.057Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 40%
+2024-08-23T05:09:43.062Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 41%
+2024-08-23T05:09:43.068Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 42%
+2024-08-23T05:09:43.072Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 43%
+2024-08-23T05:09:43.075Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 44%
+2024-08-23T05:09:43.080Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 45%
+2024-08-23T05:09:43.083Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 46%
+2024-08-23T05:09:43.091Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 47%
+2024-08-23T05:09:43.095Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 48%
+2024-08-23T05:09:43.100Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 49%
+2024-08-23T05:09:43.104Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 50%
+2024-08-23T05:09:43.107Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 51%
+2024-08-23T05:09:43.117Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 52%
+2024-08-23T05:09:43.119Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 53%
+2024-08-23T05:09:43.124Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 54%
+2024-08-23T05:09:43.127Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 55%
+2024-08-23T05:09:43.130Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 56%
+2024-08-23T05:09:43.133Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 57%
+2024-08-23T05:09:43.142Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 58%
+2024-08-23T05:09:43.150Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 59%
+2024-08-23T05:09:43.153Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 60%
+2024-08-23T05:09:43.158Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 61%
+2024-08-23T05:09:43.161Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 62%
+2024-08-23T05:09:43.171Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 63%
+2024-08-23T05:09:43.175Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 64%
+2024-08-23T05:09:43.182Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 65%
+2024-08-23T05:09:43.188Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 66%
+2024-08-23T05:09:43.194Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 67%
+2024-08-23T05:09:43.202Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 68%
+2024-08-23T05:09:43.206Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 69%
+2024-08-23T05:09:43.209Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 70%
+2024-08-23T05:09:43.213Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 71%
+2024-08-23T05:09:43.216Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 72%
+2024-08-23T05:09:43.220Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 73%
+2024-08-23T05:09:43.228Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 74%
+2024-08-23T05:09:43.231Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 75%
+2024-08-23T05:09:43.234Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 76%
+2024-08-23T05:09:43.242Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 77%
+2024-08-23T05:09:43.245Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 78%
+2024-08-23T05:09:43.247Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 79%
+2024-08-23T05:09:43.255Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 80%
+2024-08-23T05:09:43.259Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 81%
+2024-08-23T05:09:43.264Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 82%
+2024-08-23T05:09:43.267Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 83%
+2024-08-23T05:09:43.275Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 84%
+2024-08-23T05:09:43.279Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 85%
+2024-08-23T05:09:43.284Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 86%
+2024-08-23T05:09:43.293Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 87%
+2024-08-23T05:09:43.296Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 88%
+2024-08-23T05:09:43.300Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 89%
+2024-08-23T05:09:43.303Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 90%
+2024-08-23T05:09:43.308Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 91%
+2024-08-23T05:09:43.312Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 92%
+2024-08-23T05:09:43.317Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 93%
+2024-08-23T05:09:43.321Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 94%
+2024-08-23T05:09:43.323Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 95%
+2024-08-23T05:09:43.328Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 96%
+2024-08-23T05:09:43.333Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 97%
+2024-08-23T05:09:43.339Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 98%
+2024-08-23T05:09:43.343Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 99%
+2024-08-23T05:09:43.344Z [Modules] Streaming discord_spellcheck@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip: 100%
+2024-08-23T05:09:43.345Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-08-23T05:09:43.345Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip
+2024-08-23T05:09:43.731Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 1%
+2024-08-23T05:09:43.733Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 2%
+2024-08-23T05:09:43.735Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 4%
+2024-08-23T05:09:43.739Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 6%
+2024-08-23T05:09:43.741Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 8%
+2024-08-23T05:09:43.744Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 10%
+2024-08-23T05:09:43.747Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 12%
+2024-08-23T05:09:43.751Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 14%
+2024-08-23T05:09:43.754Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 16%
+2024-08-23T05:09:43.758Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 18%
+2024-08-23T05:09:43.759Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 19%
+2024-08-23T05:09:43.761Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 21%
+2024-08-23T05:09:43.762Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 22%
+2024-08-23T05:09:43.765Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 23%
+2024-08-23T05:09:43.767Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 24%
+2024-08-23T05:09:43.769Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 25%
+2024-08-23T05:09:43.771Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 27%
+2024-08-23T05:09:43.773Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 28%
+2024-08-23T05:09:43.777Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 30%
+2024-08-23T05:09:43.779Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 31%
+2024-08-23T05:09:43.785Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 33%
+2024-08-23T05:09:43.786Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 35%
+2024-08-23T05:09:43.789Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 36%
+2024-08-23T05:09:43.791Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 38%
+2024-08-23T05:09:43.791Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 39%
+2024-08-23T05:09:43.793Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 40%
+2024-08-23T05:09:43.795Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 41%
+2024-08-23T05:09:43.796Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 43%
+2024-08-23T05:09:43.798Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 44%
+2024-08-23T05:09:43.800Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 45%
+2024-08-23T05:09:43.801Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 47%
+2024-08-23T05:09:43.802Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 48%
+2024-08-23T05:09:43.805Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 49%
+2024-08-23T05:09:43.807Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 50%
+2024-08-23T05:09:43.809Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 51%
+2024-08-23T05:09:43.810Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 52%
+2024-08-23T05:09:43.814Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 54%
+2024-08-23T05:09:43.818Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 56%
+2024-08-23T05:09:43.820Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 58%
+2024-08-23T05:09:43.823Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 59%
+2024-08-23T05:09:43.825Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 61%
+2024-08-23T05:09:43.825Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 62%
+2024-08-23T05:09:43.827Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 63%
+2024-08-23T05:09:43.830Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 64%
+2024-08-23T05:09:43.832Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 66%
+2024-08-23T05:09:43.835Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 68%
+2024-08-23T05:09:43.837Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 69%
+2024-08-23T05:09:43.839Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 70%
+2024-08-23T05:09:43.841Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 71%
+2024-08-23T05:09:43.842Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 73%
+2024-08-23T05:09:43.845Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 74%
+2024-08-23T05:09:43.846Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 75%
+2024-08-23T05:09:43.848Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 77%
+2024-08-23T05:09:43.849Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 78%
+2024-08-23T05:09:43.851Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 79%
+2024-08-23T05:09:43.853Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 81%
+2024-08-23T05:09:43.854Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 82%
+2024-08-23T05:09:43.856Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 83%
+2024-08-23T05:09:43.857Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 84%
+2024-08-23T05:09:43.860Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 85%
+2024-08-23T05:09:43.861Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 87%
+2024-08-23T05:09:43.863Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 88%
+2024-08-23T05:09:43.866Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 89%
+2024-08-23T05:09:43.867Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 91%
+2024-08-23T05:09:43.869Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 92%
+2024-08-23T05:09:43.870Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 93%
+2024-08-23T05:09:43.872Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 95%
+2024-08-23T05:09:43.872Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 96%
+2024-08-23T05:09:43.876Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 97%
+2024-08-23T05:09:43.876Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 98%
+2024-08-23T05:09:43.880Z [Modules] Streaming discord_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip: 100%
+2024-08-23T05:09:43.881Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-08-23T05:09:43.881Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip
+2024-08-23T05:09:44.365Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 1%
+2024-08-23T05:09:44.376Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 2%
+2024-08-23T05:09:44.387Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 3%
+2024-08-23T05:09:44.396Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 4%
+2024-08-23T05:09:44.406Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 5%
+2024-08-23T05:09:44.425Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 6%
+2024-08-23T05:09:44.434Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 7%
+2024-08-23T05:09:44.447Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 8%
+2024-08-23T05:09:44.459Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 9%
+2024-08-23T05:09:44.467Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 10%
+2024-08-23T05:09:44.478Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 11%
+2024-08-23T05:09:44.489Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 12%
+2024-08-23T05:09:44.500Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 13%
+2024-08-23T05:09:44.512Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 14%
+2024-08-23T05:09:44.521Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 15%
+2024-08-23T05:09:44.530Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 16%
+2024-08-23T05:09:44.540Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 17%
+2024-08-23T05:09:44.551Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 18%
+2024-08-23T05:09:44.561Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 19%
+2024-08-23T05:09:44.572Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 20%
+2024-08-23T05:09:44.582Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 21%
+2024-08-23T05:09:44.590Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 22%
+2024-08-23T05:09:44.600Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 23%
+2024-08-23T05:09:44.610Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 24%
+2024-08-23T05:09:44.622Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 25%
+2024-08-23T05:09:44.634Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 26%
+2024-08-23T05:09:44.644Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 27%
+2024-08-23T05:09:44.651Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 28%
+2024-08-23T05:09:44.661Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 29%
+2024-08-23T05:09:44.671Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 30%
+2024-08-23T05:09:44.680Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 31%
+2024-08-23T05:09:44.691Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 32%
+2024-08-23T05:09:44.701Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 33%
+2024-08-23T05:09:44.711Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 34%
+2024-08-23T05:09:44.722Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 35%
+2024-08-23T05:09:44.734Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 36%
+2024-08-23T05:09:44.745Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 37%
+2024-08-23T05:09:44.754Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 38%
+2024-08-23T05:09:44.767Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 39%
+2024-08-23T05:09:44.775Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 40%
+2024-08-23T05:09:44.785Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 41%
+2024-08-23T05:09:44.796Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 42%
+2024-08-23T05:09:44.809Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 43%
+2024-08-23T05:09:44.819Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 44%
+2024-08-23T05:09:44.828Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 45%
+2024-08-23T05:09:44.840Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 46%
+2024-08-23T05:09:44.848Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 47%
+2024-08-23T05:09:44.858Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 48%
+2024-08-23T05:09:44.867Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 49%
+2024-08-23T05:09:44.876Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 50%
+2024-08-23T05:09:44.887Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 51%
+2024-08-23T05:09:44.896Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 52%
+2024-08-23T05:09:44.906Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 53%
+2024-08-23T05:09:44.914Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 54%
+2024-08-23T05:09:44.930Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 55%
+2024-08-23T05:09:44.939Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 56%
+2024-08-23T05:09:44.949Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 57%
+2024-08-23T05:09:44.960Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 58%
+2024-08-23T05:09:44.968Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 59%
+2024-08-23T05:09:44.979Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 60%
+2024-08-23T05:09:44.989Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 61%
+2024-08-23T05:09:44.997Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 62%
+2024-08-23T05:09:45.008Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 63%
+2024-08-23T05:09:45.019Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 64%
+2024-08-23T05:09:45.028Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 65%
+2024-08-23T05:09:45.040Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 66%
+2024-08-23T05:09:45.051Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 67%
+2024-08-23T05:09:45.059Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 68%
+2024-08-23T05:09:45.070Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 69%
+2024-08-23T05:09:45.078Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 70%
+2024-08-23T05:09:45.088Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 71%
+2024-08-23T05:09:45.099Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 72%
+2024-08-23T05:09:45.109Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 73%
+2024-08-23T05:09:45.121Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 74%
+2024-08-23T05:09:45.133Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 75%
+2024-08-23T05:09:45.143Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 76%
+2024-08-23T05:09:45.155Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 77%
+2024-08-23T05:09:45.163Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 78%
+2024-08-23T05:09:45.173Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 79%
+2024-08-23T05:09:45.184Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 80%
+2024-08-23T05:09:45.192Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 81%
+2024-08-23T05:09:45.201Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 82%
+2024-08-23T05:09:45.210Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 83%
+2024-08-23T05:09:45.220Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 84%
+2024-08-23T05:09:45.230Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 85%
+2024-08-23T05:09:45.238Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 86%
+2024-08-23T05:09:45.254Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 87%
+2024-08-23T05:09:45.265Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 88%
+2024-08-23T05:09:45.280Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 89%
+2024-08-23T05:09:45.290Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 90%
+2024-08-23T05:09:45.308Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 91%
+2024-08-23T05:09:45.320Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 92%
+2024-08-23T05:09:45.333Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 93%
+2024-08-23T05:09:45.346Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 94%
+2024-08-23T05:09:45.358Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 95%
+2024-08-23T05:09:45.371Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 96%
+2024-08-23T05:09:45.383Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 97%
+2024-08-23T05:09:45.395Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 98%
+2024-08-23T05:09:45.405Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 99%
+2024-08-23T05:09:45.415Z [Modules] Streaming discord_voice@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip: 100%
+2024-08-23T05:09:45.416Z [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+2024-08-23T05:09:45.416Z [Modules] Streaming discord_zstd@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_zstd-1.zip
+2024-08-23T05:09:46.144Z [Modules] Streaming discord_zstd@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_zstd-1.zip: 15%
+2024-08-23T05:09:46.147Z [Modules] Streaming discord_zstd@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_zstd-1.zip: 27%
+2024-08-23T05:09:46.149Z [Modules] Streaming discord_zstd@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_zstd-1.zip: 39%
+2024-08-23T05:09:46.151Z [Modules] Streaming discord_zstd@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_zstd-1.zip: 52%
+2024-08-23T05:09:46.154Z [Modules] Streaming discord_zstd@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_zstd-1.zip: 68%
+2024-08-23T05:09:46.156Z [Modules] Streaming discord_zstd@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_zstd-1.zip: 76%
+2024-08-23T05:09:46.158Z [Modules] Streaming discord_zstd@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_zstd-1.zip: 100%
+2024-08-23T05:09:46.162Z [Modules] Finished module downloads. [success: 6] [failure: 0]
+2024-08-23T05:09:46.163Z [Modules] Installing updates...
+2024-08-23T05:09:46.163Z [Modules] Installing discord_desktop_core@1 from /home/santiago/.config/discord/0.0.65/modules/pending/discord_desktop_core-1.zip
+2024-08-23T05:09:46.259Z [Modules] Installing discord_erlpack@1 from /home/santiago/.config/discord/0.0.65/modules/pending/discord_erlpack-1.zip
+2024-08-23T05:09:46.308Z [Modules] Installing discord_spellcheck@1 from /home/santiago/.config/discord/0.0.65/modules/pending/discord_spellcheck-1.zip
+2024-08-23T05:09:47.000Z [Modules] Installing discord_utils@1 from /home/santiago/.config/discord/0.0.65/modules/pending/discord_utils-1.zip
+2024-08-23T05:09:47.107Z [Modules] Installing discord_voice@1 from /home/santiago/.config/discord/0.0.65/modules/pending/discord_voice-1.zip
+2024-08-23T05:09:47.537Z [Modules] Installing discord_zstd@1 from /home/santiago/.config/discord/0.0.65/modules/pending/discord_zstd-1.zip
+2024-08-23T05:09:47.551Z [Modules] Finished module installations. [success: 6] [failure: 0]
+2024-08-23T05:09:47.551Z [Modules] Checking for host updates.
+2024-08-23T05:09:47.777Z [Modules] Host is up to date.
+2024-08-23T05:09:47.777Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-08-23T05:09:47.785Z [Modules] No module updates available.
+2024-08-23T05:09:48.979Z [Modules] Starting to install discord_krisp...
+2024-08-23T05:09:48.980Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-08-23T05:09:48.980Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip
+2024-08-23T05:09:48.991Z [Modules] Starting to install discord_game_utils...
+2024-08-23T05:09:49.382Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 1%
+2024-08-23T05:09:49.397Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 2%
+2024-08-23T05:09:49.407Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 3%
+2024-08-23T05:09:49.416Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 4%
+2024-08-23T05:09:49.424Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 5%
+2024-08-23T05:09:49.474Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 6%
+2024-08-23T05:09:49.474Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 7%
+2024-08-23T05:09:49.475Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 8%
+2024-08-23T05:09:49.478Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 9%
+2024-08-23T05:09:49.502Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 10%
+2024-08-23T05:09:49.506Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 11%
+2024-08-23T05:09:49.514Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 12%
+2024-08-23T05:09:49.551Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 13%
+2024-08-23T05:09:49.552Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 14%
+2024-08-23T05:09:49.562Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 15%
+2024-08-23T05:09:49.569Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 16%
+2024-08-23T05:09:49.580Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 17%
+2024-08-23T05:09:49.601Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 18%
+2024-08-23T05:09:49.606Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 19%
+2024-08-23T05:09:49.616Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 20%
+2024-08-23T05:09:49.624Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 21%
+2024-08-23T05:09:49.636Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 22%
+2024-08-23T05:09:49.649Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 23%
+2024-08-23T05:09:49.671Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 24%
+2024-08-23T05:09:49.680Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 25%
+2024-08-23T05:09:49.689Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 26%
+2024-08-23T05:09:49.703Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 27%
+2024-08-23T05:09:49.716Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 28%
+2024-08-23T05:09:49.737Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 29%
+2024-08-23T05:09:49.745Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 30%
+2024-08-23T05:09:49.755Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 31%
+2024-08-23T05:09:49.765Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 32%
+2024-08-23T05:09:49.777Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 33%
+2024-08-23T05:09:49.787Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 34%
+2024-08-23T05:09:49.798Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 35%
+2024-08-23T05:09:49.811Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 36%
+2024-08-23T05:09:49.820Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 37%
+2024-08-23T05:09:49.830Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 38%
+2024-08-23T05:09:49.842Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 39%
+2024-08-23T05:09:49.855Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 40%
+2024-08-23T05:09:49.863Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 41%
+2024-08-23T05:09:49.868Z [Modules] Checking for host updates.
+2024-08-23T05:09:49.871Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 42%
+2024-08-23T05:09:49.887Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 43%
+2024-08-23T05:09:49.896Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 44%
+2024-08-23T05:09:49.906Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 45%
+2024-08-23T05:09:49.919Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 46%
+2024-08-23T05:09:49.926Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 47%
+2024-08-23T05:09:49.937Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 48%
+2024-08-23T05:09:49.947Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 49%
+2024-08-23T05:09:49.957Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 50%
+2024-08-23T05:09:49.968Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 51%
+2024-08-23T05:09:49.975Z [Modules] Starting to install discord_rpc...
+2024-08-23T05:09:49.978Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 52%
+2024-08-23T05:09:49.990Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 53%
+2024-08-23T05:09:50.001Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 54%
+2024-08-23T05:09:50.018Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 55%
+2024-08-23T05:09:50.021Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 56%
+2024-08-23T05:09:50.030Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 57%
+2024-08-23T05:09:50.039Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 58%
+2024-08-23T05:09:50.050Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 59%
+2024-08-23T05:09:50.061Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 60%
+2024-08-23T05:09:50.072Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 61%
+2024-08-23T05:09:50.079Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 62%
+2024-08-23T05:09:50.091Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 63%
+2024-08-23T05:09:50.101Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 64%
+2024-08-23T05:09:50.111Z [Modules] Host is up to date.
+2024-08-23T05:09:50.111Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-08-23T05:09:50.113Z [Modules] No module updates available.
+2024-08-23T05:09:50.115Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 65%
+2024-08-23T05:09:50.123Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 66%
+2024-08-23T05:09:50.130Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 67%
+2024-08-23T05:09:50.140Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 68%
+2024-08-23T05:09:50.148Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 69%
+2024-08-23T05:09:50.156Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 70%
+2024-08-23T05:09:50.167Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 71%
+2024-08-23T05:09:50.174Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 72%
+2024-08-23T05:09:50.183Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 73%
+2024-08-23T05:09:50.194Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 74%
+2024-08-23T05:09:50.202Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 75%
+2024-08-23T05:09:50.213Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 76%
+2024-08-23T05:09:50.222Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 77%
+2024-08-23T05:09:50.229Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 78%
+2024-08-23T05:09:50.240Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 79%
+2024-08-23T05:09:50.248Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 80%
+2024-08-23T05:09:50.258Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 81%
+2024-08-23T05:09:50.267Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 82%
+2024-08-23T05:09:50.276Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 83%
+2024-08-23T05:09:50.284Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 84%
+2024-08-23T05:09:50.292Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 85%
+2024-08-23T05:09:50.300Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 86%
+2024-08-23T05:09:50.311Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 87%
+2024-08-23T05:09:50.320Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 88%
+2024-08-23T05:09:50.332Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 89%
+2024-08-23T05:09:50.345Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 90%
+2024-08-23T05:09:50.355Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 91%
+2024-08-23T05:09:50.364Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 92%
+2024-08-23T05:09:50.371Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 93%
+2024-08-23T05:09:50.379Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 94%
+2024-08-23T05:09:50.388Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 95%
+2024-08-23T05:09:50.396Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 96%
+2024-08-23T05:09:50.407Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 97%
+2024-08-23T05:09:50.416Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 98%
+2024-08-23T05:09:50.423Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 99%
+2024-08-23T05:09:50.430Z [Modules] Streaming discord_krisp@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip: 100%
+2024-08-23T05:09:50.432Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-08-23T05:09:50.432Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip
+2024-08-23T05:09:50.432Z [Modules] Installing discord_krisp@1 from /home/santiago/.config/discord/0.0.65/modules/pending/discord_krisp-1.zip
+2024-08-23T05:09:50.750Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-08-23T05:09:50.863Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 2%
+2024-08-23T05:09:50.875Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 4%
+2024-08-23T05:09:50.875Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 10%
+2024-08-23T05:09:50.879Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 12%
+2024-08-23T05:09:50.881Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 15%
+2024-08-23T05:09:50.881Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 17%
+2024-08-23T05:09:50.883Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 20%
+2024-08-23T05:09:50.885Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 23%
+2024-08-23T05:09:50.887Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 25%
+2024-08-23T05:09:50.889Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 28%
+2024-08-23T05:09:50.891Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 30%
+2024-08-23T05:09:50.892Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 31%
+2024-08-23T05:09:50.894Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 33%
+2024-08-23T05:09:50.896Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 36%
+2024-08-23T05:09:50.898Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 38%
+2024-08-23T05:09:50.900Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 41%
+2024-08-23T05:09:50.902Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 44%
+2024-08-23T05:09:50.904Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 46%
+2024-08-23T05:09:50.905Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 47%
+2024-08-23T05:09:50.907Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 49%
+2024-08-23T05:09:50.907Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 50%
+2024-08-23T05:09:50.909Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 52%
+2024-08-23T05:09:50.911Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 54%
+2024-08-23T05:09:50.911Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 55%
+2024-08-23T05:09:50.915Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 57%
+2024-08-23T05:09:50.917Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 59%
+2024-08-23T05:09:50.923Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 61%
+2024-08-23T05:09:50.925Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 63%
+2024-08-23T05:09:50.926Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 65%
+2024-08-23T05:09:50.928Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 67%
+2024-08-23T05:09:50.932Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 69%
+2024-08-23T05:09:50.933Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 71%
+2024-08-23T05:09:50.934Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 73%
+2024-08-23T05:09:50.936Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 74%
+2024-08-23T05:09:50.937Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 75%
+2024-08-23T05:09:50.937Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 76%
+2024-08-23T05:09:50.939Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 77%
+2024-08-23T05:09:50.940Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 80%
+2024-08-23T05:09:50.942Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 82%
+2024-08-23T05:09:50.944Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 83%
+2024-08-23T05:09:50.945Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 86%
+2024-08-23T05:09:50.947Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 87%
+2024-08-23T05:09:50.949Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 89%
+2024-08-23T05:09:50.950Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 92%
+2024-08-23T05:09:50.952Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 94%
+2024-08-23T05:09:50.954Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 96%
+2024-08-23T05:09:50.956Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 99%
+2024-08-23T05:09:50.969Z [Modules] Streaming discord_game_utils@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip: 100%
+2024-08-23T05:09:50.970Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-08-23T05:09:50.970Z [Modules] Streaming discord_rpc@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_rpc-1.zip
+2024-08-23T05:09:50.970Z [Modules] Installing discord_game_utils@1 from /home/santiago/.config/discord/0.0.65/modules/pending/discord_game_utils-1.zip
+2024-08-23T05:09:51.033Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-08-23T05:09:51.373Z [Modules] Streaming discord_rpc@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_rpc-1.zip: 75%
+2024-08-23T05:09:51.379Z [Modules] Streaming discord_rpc@1 to /home/santiago/.config/discord/0.0.65/modules/pending/discord_rpc-1.zip: 100%
+2024-08-23T05:09:51.380Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2024-08-23T05:09:51.380Z [Modules] Installing discord_rpc@1 from /home/santiago/.config/discord/0.0.65/modules/pending/discord_rpc-1.zip
+2024-08-23T05:09:51.391Z [Modules] Finished module installations. [success: 1] [failure: 0]
