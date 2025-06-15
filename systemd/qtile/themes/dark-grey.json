@@ -1,0 +1,22 @@
+{
+    "theme-dark": "#03091D",
+    "theme-mid": "#50b2ff",
+    "theme-light": "#89c2ff",
+    "theme-text-light":"#ecf6ff",
+    "theme-text-dark":"#0b2e9d",
+    "theme-focus": "#0250ff",
+    "theme-active":"#d5eeff",
+    "theme-inactive":"#6A81B2",
+    "red-dark":"#c01c28",
+    "red-light": "#fee2e4",
+    "yellow":"#E9D62C",
+    "green-dark":"#47AB4F",
+    "green-light":"#d7ffda",
+    "orange-dark": "#D96B1B",
+    "orange-light": "#fff3c5",
+    "purple-dark": "#5d02b0",
+    "purple-light": "#eee4ff",
+    "white": "ffffff",
+    "black": "000000",
+    "gray": "555555"
+}

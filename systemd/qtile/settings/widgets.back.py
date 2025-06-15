@@ -4,15 +4,22 @@ from .colors import colors
 def padding(bg='theme-dark', padd=5):
     return widget.Sep(background=colors[bg], linewidth=0, padding=padd)
 
+def powerline(bg="theme-dark"):
+    return widget.TextBox(
+        text="", # Icon: nf-oct-triangle_left
+        fontsize=10,
+        padding=-2
+    )
+
 def widget_triangle_start(fg='theme-dark', bg='theme-dark'):
     return widget.TextBox(
         foreground=colors[fg],
         background=colors[bg],
-        text="", 
-        fontsize=70,
-        padding=-11,
+        text="", 
+        fontsize=37,
+        padding=-2
     )
-
+ 
 def workspaces ():
     return [
         widget.GroupBox(
@@ -60,8 +67,8 @@ def wwifi():
                             background=colors['yellow'],
                             foreground=colors['black'],
                             padding=0),
-                padding('yellow'),
-            ],
+                padding('yellow')
+            ]
         )
     ]
 
@@ -155,10 +162,7 @@ def wtab():
 
 def wlogo():
     return [
-        padding('theme-light',3),
-        widget.TextBox('󰣇', fontsize=35, 
-                        foreground=colors['theme-dark'], 
-                        background=colors['theme-light'],
+        widget.TextBox('󰣇', fontsize=35, foreground=colors['theme-dark'], background=colors['theme-light'],
                         padding=12),
     ]
 
@@ -186,7 +190,7 @@ widgets= [
 ]
 
 widget_defaults = dict(
-    font="GeistMono NF",
+    font="Cascadia Code NF",
     fontsize=13,
 )
 
