@@ -73,7 +73,13 @@ widgets= [
 		},
 	),
 	widget.Sep(),
-        CustomShutdown(),
+        widget.QuickExit(
+           	default_text='󰐥',  
+    		countdown_format='[{}]', 
+    		timeout=5,
+                fontsize=16
+        ),
+#        CustomShutdown,
 	widget.Sep(),
 ]
 

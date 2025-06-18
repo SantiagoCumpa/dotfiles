@@ -2,21 +2,12 @@ from libqtile.config import Key, Group
 from libqtile.lazy import lazy
 from .keys import mod, keys
 
-groups = [Group(i) for i in 
-    [
-        "", # console
-        "", # browser
-        "", # dev
-        "󰝚", # music
-        "󱓷", # study
-    ]
-]
+groups = [Group(i) for i in "12345"]
 
-for i, group in enumerate(groups):
-    actual_key = str(i + 1)
+for i in groups:
     keys.extend([
         # Switch to workspace N
-        Key([mod], actual_key, lazy.group[group.name].toscreen()),
-        # Send window to workspace N
-        Key([mod, "shift"], actual_key, lazy.window.togroup(group.name))
+        Key([mod], i.name, lazy.group[i.name].toscreen()),
+        # Send to workspace N
+        Key([mod, "shift"], i.name, lazy.window.togroup(i.name))
     ])

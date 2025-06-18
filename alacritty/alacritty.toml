@@ -1,6 +1,6 @@
 [env]
 WINIT_X11_SCALE_FACTOR = "1.0"
-
+       
 [window]
 padding = { x = 20, y = 20 }
 
@@ -13,7 +13,6 @@ thickness = 0.2
 
 [terminal]
 shell = "fish"
-osc52 = "CopyPaste"
 
 [mouse]
 hide_when_typing = true

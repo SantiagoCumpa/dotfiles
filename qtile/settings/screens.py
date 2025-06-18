@@ -2,15 +2,14 @@ from libqtile.config import Screen
 from libqtile import bar
 from libqtile.log_utils import logger
 from .widgets import widgets
-from .colors import colors
 import subprocess
 
-def status_bar(widgets):
-    return bar.Bar(widgets, 38, background="#000000", margin=6)
+def status_bar(widg):
+    return bar.Bar(widg, 32)
 
 screens = [
     Screen(top=status_bar(widgets)),
-    ]
+]
 
 xrandr = "xrandr | grep -w 'connected' | cut -d ' ' -f 2 | wc -l"
 
