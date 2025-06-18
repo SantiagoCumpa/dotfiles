@@ -1,7 +1,7 @@
 .git
 gh/
 htop/
-./pavucontrol.ini
+pavucontrol.ini
 systemd/
 pulse/
 fontconfig/
