@@ -2,9 +2,10 @@ import subprocess
 from libqtile.widget import base
 
 class CustomWlan(base.ThreadPoolText):
-    def __init__(self, interface="wlan0", **config):
+    def __init__(self, interface="wlan0", update_interval=5):
         self.interface = interface
-        super().__init__(**config)
+        self.update_interval = update_interval
+        super().__init__()
 
     def poll(self):
         try:
@@ -21,11 +22,9 @@ class CustomWlan(base.ThreadPoolText):
             quality = self.get_signal_strength()
             icon = self.get_signal_icon(quality)
 
-            return f"{icon}  {essid}"
-
+            return f"{icon} {essid}"
         except Exception as e:
             return "󰤭 Error"
-
 
     def get_signal_strength(self):
         try:
@@ -38,16 +37,14 @@ class CustomWlan(base.ThreadPoolText):
             return 0
 
     def get_signal_icon(self, signal):
-        if signal > 90:
-            return '󰤨'
-        elif signal > 70:
-            return '󰤥'
-        elif signal > 50:
-            return '󰤢'
-        elif signal > 30:
-            return '󰤟'
-        elif signal > 10:
-            return '󰤯'
-        else:
-            return '󰤮'
-
+        levels = [
+            (90, '󰤨'),
+            (70, '󰤥'),
+            (50, '󰤢'),
+            (30, '󰤟'),
+            (10, '󰤯'),
+            (0,  '󰤮'),
+        ]
+        for threshold, icon in levels:
+            if signal >= threshold:
+                return icon

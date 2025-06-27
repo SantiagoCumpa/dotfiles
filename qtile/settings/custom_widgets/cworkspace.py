@@ -6,17 +6,10 @@ class CustomWorkspaceIndicator(base.ThreadPoolText):
         super().__init__("", **config)
 
         self.group_name = str(group_name)
-        self.update_interval=0.1
+        self.update_interval=0
         self.add_callbacks({
             "Button1": self.goto_group,
         })
-
-        # Update when group changes
-        hook.subscribe.setgroup(self._update)
-        hook.subscribe.changegroup(self._update)
-
-    def _update(self):
-        self.update(self.poll())
 
     def goto_group(self):
         from libqtile import qtile

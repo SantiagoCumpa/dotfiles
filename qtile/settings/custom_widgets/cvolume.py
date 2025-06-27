@@ -1,6 +1,7 @@
+from libqtile import bar
 from libqtile.widget import base
-from libqtile import qtile, bar
 import subprocess
+import re
 
 class CustomVolume(base.ThreadPoolText):
     length_type = bar.CALCULATED
@@ -17,43 +18,48 @@ class CustomVolume(base.ThreadPoolText):
     def poll(self):
         try:
             volume, muted = self.get_vol()
-            
-            if muted:
-                icon = '󰖁'
-            elif volume > 60:
-                icon = '󰕾'
-            elif volume > 30:
-                icon = '󰖀'
-            elif volume >= 1:
-                icon = '󰕿'
-            elif volume == 0:
-                icon = '󰖁'
-            
+            icon = self.get_icon(volume, muted)
             return f"{icon} {int(volume)}%"
         except Exception:
             return "󰝛 --"
 
+    def get_default_sink(self):
+        try:
+            return subprocess.check_output(["pactl", "get-default-sink"], text=True).strip()
+        except subprocess.CalledProcessError:
+            return None
+
+    def get_icon(self, volume, muted):
+        if muted or volume == 0:
+            return '󰖁'
+        elif volume > 60:
+            return '󰕾'
+        elif volume > 30:
+            return '󰖀'
+        return '󰕿'
+
     def get_vol(self):
-        result = subprocess.check_output(
-            ["wpctl", "get-volume", "@DEFAULT_AUDIO_SINK@"],
-            text=True
-        )
-        parts = result.strip().split()
-        volume = float(parts[1]) * 100
-        muted = 'MUTED' in parts
-        
+        sink = self.get_default_sink()
+        output = subprocess.check_output(["pactl", "get-sink-volume", sink], text=True)
+        mute_output = subprocess.check_output(["pactl", "get-sink-mute", sink], text=True)
+
+        match = re.search(r'(\d+)%', output)
+        volume = float(match.group(1)) if match else 0.0
+
+        muted = "yes" in mute_output
+
         return volume, muted
 
     def toggle_mute(self):
-        subprocess.Popen(["wpctl", "set-mute", "@DEFAULT_AUDIO_SINK@", "toggle"])
+        sink = self.get_default_sink()
+        subprocess.Popen(["pactl", "set-sink-mute", sink, "toggle"])
 
     def vol_up(self):
+        sink = self.get_default_sink()
         volume, _ = self.get_vol()
+        if volume <= 95:
+           subprocess.Popen(["pactl", "set-sink-volume", sink, "+5%"])
         
-        if volume >= 100: 
-           subprocess.Popen(["wpctl", "set-volume", "-l", "@DEFAULT_AUDIO_SINK@", "1"])
-        else:
-           subprocess.Popen(["wpctl", "set-volume", "-l", "1.5", "@DEFAULT_AUDIO_SINK@", "1%+"])
-
     def vol_down(self):
-        subprocess.Popen(["wpctl", "set-volume", "@DEFAULT_AUDIO_SINK@", "1%-"])
+        sink = self.get_default_sink()
+        subprocess.Popen(["pactl", "set-sink-volume", sink, "-5%"])

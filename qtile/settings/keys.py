@@ -6,6 +6,11 @@ mod = "mod4"
 BROWSER = 'firefox'
 TERMINAL = 'alacritty'
 
+import os
+
+# home path
+rofi_path = os.path.expanduser("~/.config/rofi/")
+
 keys = [
     # Switch between windows
     Key([mod], "Left", lazy.layout.left(), desc="Move focus to left"),
@@ -30,6 +35,8 @@ keys = [
 
     #custom
     Key([mod], "b", lazy.spawn(BROWSER)),
+    Key([mod], "Return", lazy.spawn(TERMINAL), desc="Launch terminal"),
+    Key([mod, "control"], "Return", lazy.spawn(rofi_path + "powermenu/powermenu.sh")),
 
     Key(
         [mod, "shift"],
@@ -37,7 +44,7 @@ keys = [
         lazy.layout.toggle_split(),
         desc="Toggle between split and unsplit sides of stack",
     ),
-    Key([mod], "Return", lazy.spawn(TERMINAL), desc="Launch terminal"),
+
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
     Key([mod], 'w', lazy.window.kill(), desc="Kill focused window"),
@@ -61,3 +68,4 @@ keys = [
     Key([], "XF86MonBrightnessUp", lazy.spawn("xbacklight +10")),
     Key([], "XF86MonBrightnessDown", lazy.spawn("xbacklight -10")),
 ]
+ 

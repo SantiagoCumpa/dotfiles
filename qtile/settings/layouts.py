@@ -4,19 +4,18 @@ from libqtile.config import Match
 from .colors import colors
 
 layout_conf = {
-#    'border_focus': colors['theme-light'],
-    'border_width': 1,
-    'margin': 4,
+    'border_focus': "#ffffff",
+    'single_border_width': 2,
+    'border_width': 2,
+    'margin': 5,
+    'border_normal': "#000000",
+    'border_on_single': True
 }
 
 layouts = [
-    layout.Columns( border_focus_stack=[colors['white']], 
-                    border_normal=[colors['theme-dark']],
-                    **layout_conf
-    ),
-    layout.Stack(   num_stacks=3,
+    layout.Columns(**layout_conf),
+    layout.Stack( num_stacks=3, autosplit=False,
                     **layout_conf,
-                    #border_focus_stack=[colors['theme-light']]
     )
 ]
 

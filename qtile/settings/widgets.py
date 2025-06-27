@@ -1,23 +1,27 @@
 from libqtile import widget
-from .colors import colors
 
-from .custom_widgets.cwlan import CustomWlan
+from .custom_widgets.cwlan 	import CustomWlan
 from .custom_widgets.cworkspace import CustomWorkspace
-from .custom_widgets.cvolume import CustomVolume
-from .custom_widgets.cshutdown import CustomShutdown
+from .custom_widgets.cvolume 	import CustomVolume
+from .custom_widgets.cbattery 	import CustomBattery
 
 import subprocess
+import os
+
+# rofi path
+rofi_path=os.path.expanduser("~/.config/rofi/")
+# qtile scripts path
+qtile_scripts_path=os.path.expanduser("~/.config/qtile/scripts/")
 
 # WIDGETS
 widgets= [
-	widget.TextBox('󰣇', fontsize=25,padding=20),
-        widget.Sep(),
-        *CustomWorkspace,
+	widget.TextBox('󰣇', fontsize=25,padding=15),
+       *CustomWorkspace,
 	widget.Spacer(),
 	widget.GenPollText(
-		update_interval=0,
+		update_interval=3,
 		func=lambda: subprocess.check_output(
-	        	['/home/santiago/.config/qtile/settings/scripts/get_player.sh']
+	        	[qtile_scripts_path + 'get_player.sh']
     		).decode('utf-8').strip(),
     		scroll=True,
     		scroll_step=1,
@@ -29,57 +33,38 @@ widgets= [
     		},
 	),
 	widget.Spacer(),
-	widget.Sep(),
         CustomVolume(),
 	widget.Sep(),
-	CustomWlan(
-                interface="wlan0",
-                update_interval=1,
-	),
+	CustomWlan( interface="wlan0"),
 	widget.Sep(),
-	widget.CPU(
-		format='  {load_percent}%'
-	),
+	widget.CPU(format=' {load_percent}%'),
 	widget.Sep(),
 	widget.Memory(
-		format='  {MemUsed:.1f}/{MemTotal:.0f}{mm}',
+		format=' {MemUsed:.1f}/{MemTotal:.0f}{mm}',
     		measure_mem='G',
-    		update_interval=1.0,
+    		update_interval=5,
 	),
 	widget.Sep(),
-	widget.Battery(
-		format='{char} {percent:2.0%}',
-    		full_short_text='󰂅',
-		full_char="󰂅",
-		charge_char='󰢝',
-    		discharge_char='󰁾',
-    		empty_char='󱃍',
-		low_percentage=0.2,
-		low_foreground="#FF0000",
-		update_interval = 1,
-	),
+        CustomBattery(),        
 	widget.Sep(),
         widget.Clock(
 		format=" %Y/%m/%d  %I:%M %p",
 	),
 	widget.Sep(),
 	widget.KeyboardLayout(
-		configured_keyboards=['us', 'latam'],
+		configured_keyboards=['latam', 'us'],
     		display_map={'us': 'EN', 'latam': 'ES'},
-    		mouse_callbacks={
-        		'Button1': lambda: subprocess.Popen(
-				['bash', '/home/santiago/.config/qtile/settings/scripts/toogle_layout.sh']
-			)
+    		mouse_callbacks={ 'Button1': lambda: subprocess.Popen(
+				['bash', qtile_scripts_path + 'toogle_layout.sh'])
 		},
+                update_interval = 1,
 	),
-	widget.Sep(),
-        CustomShutdown(),
 	widget.Sep(),
 ]
 
 widget_defaults = dict(
     font="GeistMono NF",
-    fontsize=13,
+    fontsize=14,
 )
 
 extension_defaults = widget_defaults.copy()

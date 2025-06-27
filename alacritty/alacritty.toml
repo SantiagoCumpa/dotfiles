@@ -1,3 +1,10 @@
+[general]
+import = [
+#"~/.config/alacritty/colors/nord-colors.toml",
+#"~/.config/alacritty/colors/moonlight-colors.toml",
+"~/.config/alacritty/colors/contrast-colors.toml",
+]
+
 [env]
 WINIT_X11_SCALE_FACTOR = "1.0"
        
@@ -26,32 +33,5 @@ normal = { family = "GeistMono NF" }
 bold = { family = "GeistMono NF" }
 italic = { family = "GeistMono NF" }
 bold_italic = { family = "GeistMono NF" }
-size = 10
+size = 9.5
 
-[colors]
-# Default colors
-[colors.primary]
-background = "0x24283b"
-foreground = "0xa9b1d6"
-
-# Normal colors
-[colors.normal]
-black = "0x32344a"
-red = "0xf7768e"
-green = "0xcdea9f"
-yellow = "0xe0af68"
-blue = "0x7aa2f7"
-magenta = "0xad8ee6"
-cyan = "0x98e4ff"
-white = "0x9699a8"
-
-# Bright colors
-[colors.bright]
-black = "0x444b6a"
-red = "0xff7a93"
-green = "0xe0ffad"
-yellow = "0xff9e64"
-blue = "0x7da6ff"
-magenta = "0xbb9af7"
-cyan = "0x98fffd"
-white = "0xacb0d0"

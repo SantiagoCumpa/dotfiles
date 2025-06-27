@@ -1,14 +1,30 @@
 from libqtile.config import Screen
-from libqtile import bar
+from libqtile import bar, widget
 from libqtile.log_utils import logger
 from .widgets import widgets
+
 import subprocess
+import os
+
+# Replace with your wallpaper file path
+wallpaper_name = 'galaxy-01.png'
+wallpaper_path = os.path.expanduser("~/Images/Wallpapers/") + wallpaper_name
 
 def status_bar(widg):
-    return bar.Bar(widg, 32)
+    return bar.Bar(
+           widg, 35, 
+           margin = [ 5, 5, 10, 5], 
+           
+ border_color="#ffffff",
+           border_width=1,
+           background='#ffffff00'
+    )
 
 screens = [
-    Screen(top=status_bar(widgets)),
+    Screen(top=status_bar(widgets),
+           wallpaper=wallpaper_path,
+           wallpaper_mode = "fill",
+    ),
 ]
 
 xrandr = "xrandr | grep -w 'connected' | cut -d ' ' -f 2 | wc -l"
@@ -29,5 +45,10 @@ else:
 
 if connected_monitors > 1:
     for _ in range(1, connected_monitors):
-        screens.append(Screen(top=status_bar(widgets)))
+        screens.append(Screen(top=status_bar(widgets),
+           wallpaper=wallpaper_path,
+           wallpaper_mode = "fill"
+        ))
+
+
 

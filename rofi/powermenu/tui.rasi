@@ -1,0 +1,70 @@
+/*****----- Configuration -----*****/
+configuration {
+    show-icons:                 false;
+}
+
+/*
+USE_BUTTONS=YES
+*/
+
+/*****----- Main Window -----*****/
+window {
+    /* properties for window widget */
+    location:			 center;
+    width:                       30%;
+    margin:                      0px;
+    padding:                     10px;
+    border:                      1px solid;
+    border-color:		 white;    
+    background-color:            black;
+    children: 			 [ "message", "listview" ];
+}
+
+
+/*****----- Message -----*****/
+message {
+    margin:                      0 0 10px 0;
+    background-color:            black;
+    text-color:                  white;
+}
+
+textbox {
+    font:			 "GeistMono NF 11";
+    background-color:            inherit;
+    text-color:                  inherit;
+    horizontal-align:            0.5;
+    placeholder-color:           white;
+}
+
+/*****----- Listview -----*****/
+listview {
+    enabled:                     true;
+    columns:                     5;
+    lines:                       1;
+    layout:                      vertical;
+    spacing:                     10px;
+    background-color:	 	 transparent;
+}
+
+/*****----- Elements -----*****/
+element {
+    padding:			 10px;
+    border:                      1px solid;
+    border-color:                white;
+    background-color:            black;
+    text-color:                  white;
+    cursor:                      pointer;
+}
+element-text {
+    font:                        "GeistMono NF 25";
+    background-color:            transparent;
+    text-color:                  inherit;
+    cursor:                      inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+}
+
+element selected.normal {
+    background-color:            white;
+    text-color:                  black;
+}
