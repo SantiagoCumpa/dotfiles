@@ -1,7 +1,7 @@
 from libqtile import layout, qtile
 from libqtile.config import Match
 
-from .colors import colors
+#from .colors import colors
 
 layout_conf = {
     'border_focus': "#ffffff",

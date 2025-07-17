@@ -1,0 +1,75 @@
+configuration {
+    modes:                      [drun];
+    show-icons:                 true;
+    display-drun:               " ";
+}
+
+* {
+  font: "GeistMono NF 11";
+  fontsize: 10px;
+
+  bg: #000000;
+  fg: #FFFFFF;
+
+  bg-alt: #FFFFFF;
+  fg-alt: #000000;
+
+  background-color: @bg;
+  text-color: @fg;
+  margin:     0;
+  padding:    0;
+  spacing:    0;
+}
+
+window {
+    location:                    center;
+    width:                       30%;
+    padding:                     10px;
+    border:                      1px solid;
+    border-color:                white;
+    background-color:            black;
+}
+
+inputbar {
+    spacing:                     10px;
+    margin:                      0 0 10px 0;
+    children:                    [ "prompt", "entry" ];
+}
+
+entry {
+    cursor:                      text;
+    placeholder:                 "Search application";
+}
+
+listview {
+    columns:                     1;
+    lines:                       10;
+}
+
+element {
+    margin:                      0px;
+    padding:                     5px;
+    border:                      0px solid;
+    background-color:            transparent;
+    cursor:                      pointer;
+}
+element normal.normal {
+    background-color:            black;
+    text-color:                  white;
+}
+element selected.normal {
+    background-color:            white;
+    text-color:                  black;
+}
+element-icon {
+    size:                        24px;
+    margin: 			 0 10px 0 0;
+}
+element-icon selected {
+    background-color:		 @bg-alt;
+}
+element-text {
+    background-color:            inherit;
+    text-color:                  inherit;
+}
+

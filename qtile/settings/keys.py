@@ -35,6 +35,7 @@ keys = [
 
     #custom
     Key([mod], "b", lazy.spawn(BROWSER)),
+    Key([mod], "q", lazy.spawn(rofi_path + "launchers/launcher.sh")),
     Key([mod], "Return", lazy.spawn(TERMINAL), desc="Launch terminal"),
     Key([mod, "control"], "Return", lazy.spawn(rofi_path + "powermenu/powermenu.sh")),
 
